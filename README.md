@@ -41,32 +41,29 @@ src/
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/your-username/fitness-tracker.git
-cd fitness-tracker
+git clone https://github.com/plican142asuflex/FitPlus.git
+cd FitPlus
 2. Install Dependencies
-bash
-Copy code
+
 npm install
 3. Firebase Setup
 Create a Firebase project on the Firebase Console.
 Enable Authentication and Firestore database.
-Copy your Firebase config and replace the existing firebaseConfig in src/firebaseConfig.js.
+
 4. Run the Application
 bash
-Copy code
+
 npm start
 The application will run locally at http://localhost:3000.
 
 5. Deploy to Firebase Hosting
 Build the React App:
 
-bash
-Copy code
+
 npm run build
 Deploy to Firebase:
 
-bash
-Copy code
+
 firebase init hosting
 firebase deploy
 Follow the Firebase prompts as outlined in the step-by-step guide.
