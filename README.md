@@ -68,13 +68,6 @@ firebase init hosting
 firebase deploy
 Follow the Firebase prompts as outlined in the step-by-step guide.
 
-🖼️ Screenshots
-https://drive.google.com/file/d/1DMVcEdbELGeU-D8KajeZdB365uhJHMA3/view
-
-Progress Visualization
-
-
-
 🤝 Contributions
 Contributions, issues, and feature requests are welcome! Feel free to check issues or open a new one.
 
