@@ -14,6 +14,7 @@ Responsive Design: Works seamlessly across devices.
 Frontend: React.js, CSS, Recharts
 Backend: Firebase (Firestore, Authentication, Hosting)
 🏗️ Project Structure
+
 src/
 │
 ├── assets/
@@ -75,8 +76,7 @@ Home Page
 
 Progress Visualization
 
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 🤝 Contributions
 Contributions, issues, and feature requests are welcome! Feel free to check issues or open a new one.
