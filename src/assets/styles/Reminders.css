@@ -1,0 +1,41 @@
+.reminders-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.create-reminder-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.create-reminder-form input,
+.create-reminder-form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.create-reminder-form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.create-reminder-form button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

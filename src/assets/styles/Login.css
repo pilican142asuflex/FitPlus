@@ -1,0 +1,67 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white; /* Change background to white */
+    color: black; /* Change text color to black for better contrast */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.1); /* Light transparent background for the form */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px; /* Fixed width for the form */
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: black; /* Change label text color to black */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black; /* Change input text color to black */
+    background-color: rgba(0, 0, 0, 0.05); /* Slightly transparent light background for inputs */
+}
+
+input::placeholder {
+    color: black; /* Set placeholder text color to black */
+    opacity: 0.7; /* Optional: Make it slightly transparent */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6347; /* Tomato color for the button */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* Darker tomato on hover */
+}
+
+.error {
+    color: #ffcccc; /* Light red for error messages */
+    margin-top: 10px;
+}

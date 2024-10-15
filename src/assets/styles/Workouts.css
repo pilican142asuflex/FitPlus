@@ -1,0 +1,49 @@
+.workout-card {
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    margin: 15px; /* Spacing between cards */
+    background-color: #f9f9f9; /* Light background for the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+  }
+  
+  .workout-card img {
+    width: 450px; /* Increased width for the GIF */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the GIF */
+  }
+  
+  .workout-card label {
+    font-weight: bold; /* Make labels bold for better readability */
+    margin-top: 10px; /* Space above the label */
+  }
+  
+  .workout-card input {
+    width: 80px; /* Set a medium width for the input fields */
+    margin-right: 5px; /* Space between input and buttons */
+    padding: 5px; /* Add padding for better user experience */
+  }
+  
+  .workout-card button {
+    margin-left: 5px; /* Space between buttons */
+    padding: 5px 10px; /* Button padding */
+  }
+  
+  .workout-card p {
+    margin: 10px 0; /* Space above and below the notes */
+  }
+  
+  /* Optional: Add responsive design */
+  @media (max-width: 800px) {
+    .workout-card img {
+      width: 400px; /* Adjust GIF size for smaller screens */
+    }
+  
+    .workout-card input {
+      width: 70px; /* Adjust input size for smaller screens */
+    }
+  }
+  
