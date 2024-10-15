@@ -69,7 +69,7 @@ firebase deploy
 Follow the Firebase prompts as outlined in the step-by-step guide.
 
 🖼️ Screenshots
-Home Page
+https://drive.google.com/file/d/1DMVcEdbELGeU-D8KajeZdB365uhJHMA3/view
 
 Progress Visualization
 
